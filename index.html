@@ -1,0 +1,131 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<script type="module" src="js/app.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Unistrut 2D Frame Builder</h1>
+
+    <div class="toolbar">
+        <button id="newFrame">New</button>
+<button id="saveFrame">Save</button>
+<button id="exportJSON">Export JSON</button>
+    </div>
+</header>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <section>
+
+<h2>Selected Member</h2>
+
+<div id="properties">
+
+
+<p>No member selected</p>
+
+
+<label>Start X</label>
+<input id="editStartX" type="number">
+
+
+<label>Start Height</label>
+<input id="editStartZ" type="number">
+
+
+<label>End X</label>
+<input id="editEndX" type="number">
+
+
+<label>End Height</label>
+<input id="editEndZ" type="number">
+
+
+<button id="updateMember">
+Update Member
+</button>
+
+
+</div>
+
+<button id="deleteMember">
+Delete Member
+</button>
+
+</section>
+
+        <section>
+
+            <h2>Frame</h2>
+
+            <label>Width</label>
+            <input type="number" id="width" value="4000">
+
+            <label>Height</label>
+            <input type="number" id="height" value="3000">
+
+        </section>
+
+        <section>
+
+<h2>Members</h2>
+
+
+<label>Member Height</label>
+<input 
+type="number" 
+id="memberHeight" 
+value="1500"
+>
+
+
+<label>Start X</label>
+<input 
+type="number" 
+id="memberStart" 
+value="0"
+>
+
+
+<label>End X</label>
+<input 
+type="number" 
+id="memberEnd" 
+value="4000"
+>
+
+
+<button id="createBeam">
+Create Beam
+</button>
+
+
+</section>
+
+        <section>
+
+            <h2>Brackets</h2>
+
+            <button>Add Bracket</button>
+
+        </section>
+
+    </aside>
+
+    <main>
+
+        <div id="viewer"></div>
+
+    </main>
+
+</div>
+
+</body>
+
+<script type="module" src="js/app.js"></script>
+</html>
