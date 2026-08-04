@@ -8,19 +8,19 @@ export const Models = {
 
     },
 
-    TBracket: {
-
-        name: "TBracket",
-
-        path: "assets/models/brackets/TBracket.glb"
-
-    },
-
     LBracket: {
 
         name: "LBracket",
 
         path: "assets/models/brackets/LBracket.glb"
+
+    },
+
+    TBracket: {
+
+        name: "TBracket",
+
+        path: "assets/models/brackets/TBracket.glb"
 
     }
 
