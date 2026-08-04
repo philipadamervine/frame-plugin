@@ -1,0 +1,13 @@
+export const CONFIG = {
+
+    DEFAULT_WIDTH: 4000,
+
+    DEFAULT_HEIGHT: 3000,
+
+    MEMBER_SIZE: 41,
+
+    INTERNAL_BEAM_OFFSET: 41,
+
+    DEFAULT_FAMILY: "P1001T_Beam"
+
+};
